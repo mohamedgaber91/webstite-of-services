@@ -6,14 +6,13 @@
 
 *{
   box-sizing: border-box;
-  border: 1px solid black;
+ 
   
 }
 body{
   font-family: 'Open Sans', sans-serif;
   overflow-x: hidden;
-  border: 1px solid red;
-  background-color: blue;
+  
   
   
 }
