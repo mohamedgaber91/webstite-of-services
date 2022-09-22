@@ -185,7 +185,7 @@ opacity: 1;
 
   width: 257px;
   position: fixed;
-  right: 0;
+  right: 12px;
   margin-top: 300px;
   height: 436px;
   margin-bottom: 102px;
@@ -316,9 +316,10 @@ color: var(--main-color);
   margin-top: 80px;
 }
 .heading .text p{
-  padding: 93px;
-  font-size: 20px;
-  color: #ffffffd1;
+  padding: 22px;
+    font-size: 30px;
+    color: white;
+    color: #ffffff6b;
 }
 .heading .text button{
   width: 185px;
@@ -363,12 +364,13 @@ color: var(--main-color);
   font-size: 20px;
   color: #00000094;
   margin-top: 57px;
+  padding: 30px;
 }
 .about .container .abocont .abo2{
-  margin-left: 83px
+  
 }
 .about .container .abocont .abo2 img{
-width: 100%;
+width: 80%;
 }
 
 
@@ -517,9 +519,9 @@ padding-bottom: 54px;
 }
 .timeline .timecont{
   display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(446px,1fr));
-  gap: 40px;
-  position: relative;
+    grid-template-columns: repeat(auto-fill,minmax(338px,1fr));
+    gap: 40px;
+    position: relative;
 }
 .timeline .timecont .timecont1,.timeline .timecont .timecont2{
   margin: 20px;
@@ -783,7 +785,6 @@ padding: 32px;
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(275px,1fr));
     gap: 114px;
-    margin-left: 70px;
     text-align: center;
     margin-top: 166px;
     margin-right: 70px;
@@ -869,7 +870,6 @@ margin-left: 10%;
 
 }
 .contact .contcont .cont2 textarea{
-  width: 80%;
   background-color: #ececec;
   text-transform: capitalize;
   padding: 10px 0px 0px 20px;
@@ -1045,8 +1045,18 @@ color: var(--main-color);
   width: 100%;
  }
  .contact .contcont{
-  margin-left: 15%;
+  
  }
+ .footer .footercont .social{
+  width: 240px;
+  margin-left: -40px;
+ }
+ .footer .footercont ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(179px,1fr));
+  gap: 23px;
+  margin-left: -38px;
+}
 
 }
 /* tap */
@@ -1095,6 +1105,12 @@ color: var(--main-color);
    .contact .contcont{
     margin-left: 15%;
    }
+   .timeline .timecont {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(392px,1fr));
+    gap: 40px;
+    position: relative;
+}
 
 }
 /* lap */
