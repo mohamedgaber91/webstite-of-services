@@ -37,7 +37,7 @@ p::selection{
   height: 600px;
   background-color: #d9c1d4;
   width: 255px;
-  z-index: 1000;
+  z-index: 1500;
   transition: var(--main-transition);
 }
 .boxSetting.open{
@@ -189,9 +189,8 @@ opacity: 1;
 
   width: 257px;
   position: fixed;
-  right: -27px;
-  margin-top: 300px;
-  height: 436px;
+  right: -20px;
+  margin-top: 232px;
   margin-bottom: 102px;
   z-index: 1000;
   display: block;
@@ -984,10 +983,11 @@ color: black;
 .footer .footercont h5{
   font-size: 20px;
   margin-top: 70px;
+  white-space: nowrap;
   color: #00000052;
   text-transform: capitalize;
   word-spacing: 1.2px;
-  line-height: 60px;
+  line-height: 40px;
 
 }
 .footer .footercont h5 span{
@@ -1076,7 +1076,7 @@ color: var(--main-color);
 
  }
  .contact .contcont{
-  
+  margin-left: 40px;
  }
  .footer .footercont .social{
   width: 240px;
