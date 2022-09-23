@@ -6,14 +6,13 @@
 
 *{
   box-sizing: border-box;
-  /* border: 1px solid black; */
+  
   
 }
 body{
   font-family: 'Open Sans', sans-serif;
   overflow-x: hidden;
-  /* border: 1px solid red;  */
-  /* background-color: aqua;  */
+ 
   
   
   
@@ -981,17 +980,16 @@ color: black;
 }
 
 
-.footer .footercont h5{
+.footer .footercont p{
   font-size: 20px;
   margin-top: 70px;
-  white-space: nowrap;
   color: #00000052;
   text-transform: capitalize;
   word-spacing: 1.2px;
-  line-height: 50px;
+  
 
 }
-.footer .footercont h5 span{
+.footer .footercont p span{
 color: var(--main-color);
 }
 
@@ -1031,9 +1029,7 @@ color: var(--main-color);
 /********************************************************** start medai query ******************/
 /* mob ile */
 @media (max-width:500px) {
-  body{
-    width: 550px;
-  }
+ 
   .skills .skillcont .span1, .skills .skillcont .span2, .skills .skillcont .span3, .skills .skillcont .span4, .skills .skillcont .span5 {  
     width: 80%;
     height: 111px;
@@ -1102,7 +1098,7 @@ color: var(--main-color);
   margin-right: 171px;
 }
 .contact .contcont .cont1,.contact .contcont .cont2{
-  margin-right: 70px;
+  margin-right: 133px;
 }
 .gallery .gallerycont {
   display: grid;
@@ -1135,6 +1131,16 @@ color: var(--main-color);
 .testimonilas .testcont .test1 h5, .testimonilas .testcont .test2 h5, .testimonilas .testcont .test3 h5 {
   transform: translate(-2px, -50px);
 }
+.contact .contcont .cont1 input,.contact .contcont .cont2 textarea {
+  display: block;
+  margin-bottom: 31px;
+  text-transform: capitalize;
+  width: 90%;
+  background-color: #e5e5e5ab;
+  padding: 10px;
+  border: 2px solid #d3adad;
+}
+
 }
 /* tap */
 @media (min-width:501px) and (max-width:992px) {
