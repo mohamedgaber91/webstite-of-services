@@ -12,6 +12,7 @@
 body{
   font-family: 'Open Sans', sans-serif;
   overflow-x: hidden;
+  
  
   
   
@@ -1080,7 +1081,7 @@ color: var(--main-color);
  }
  .footer .footercont .social{
   width: 253px;
-  margin-left: -21px;
+  margin-left: -40px;
  }
  .footer .footercont ul {
   display: grid;
@@ -1098,7 +1099,7 @@ color: var(--main-color);
   margin-right: 171px;
 }
 .contact .contcont .cont1,.contact .contcont .cont2{
-  margin-right: 22px;
+  margin-right: 50px;
 }
 .gallery .gallerycont {
   display: grid;
