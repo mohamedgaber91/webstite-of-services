@@ -621,6 +621,7 @@ padding-bottom: 54px;
   background-color: white;
   padding: 20px;
   line-height: 25px;
+  margin-bottom: 84px;
   margin-top: 85px;
   padding-left: 46px;
 }
@@ -875,7 +876,7 @@ padding: 32px;
   margin-top: 50px;
 }
 .contact .contcont .cont1,.contact .contcont .cont2{
-  margin-right: 40px;
+  
 }
 .contact .contcont .cont1 input{
   display: block;
@@ -1116,11 +1117,11 @@ display: block;
 
 .about .container .abocont .abo1,.about .container .abocont .abo2{
   
-  margin-right: 124px
+  
 
 }
 .timecont1, .timecont2{
-  margin-right: 171px;
+
 }
 .contact .contcont .cont1,.contact .contcont .cont2{
   margin-right: 50px;
@@ -1159,7 +1160,7 @@ display: block;
   display: block;
   margin-bottom: 31px;
   text-transform: capitalize;
-  width: 90%;
+  width: 100%;
   background-color: #e5e5e5ab;
   padding: 10px;
   border: 2px solid #d3adad;
