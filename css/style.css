@@ -549,8 +549,8 @@ padding-bottom: 54px;
  }
  
  .timeline .timecont {
-    display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(442px,1fr));
+   display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(524px,1fr));
     gap: 40px;
     position: relative;
 }
@@ -1028,9 +1028,33 @@ color: var(--main-color);
 
 
 /********************************************************** start medai query ******************/
-/* mob ile */
+/* mobile */
 @media (max-width:500px) {
+ .about .container .abocont{
+  display: block;
+  
+}
+.gallery .gallerycont{
+  display: block;
  
+}
+ .timeline .timecont {
+   display: block;
+  
+    
+}
+.features .featcont{
+ 
+ display: block;
+}
+.testimonilas .testcont{
+display: block;
+ 
+}
+.contact .contcont{
+  display: block;
+  
+}
   .skills .skillcont .span1, .skills .skillcont .span2, .skills .skillcont .span3, .skills .skillcont .span4, .skills .skillcont .span5 {  
     width: 80%;
     height: 111px;
@@ -1144,6 +1168,31 @@ color: var(--main-color);
 }
 /* tap */
 @media (min-width:501px) and (max-width:992px) {
+  .about .container .abocont{
+  display: block;
+  
+}
+.gallery .gallerycont{
+  display: block;
+ 
+}
+ .timeline .timecont {
+   display: block;
+  
+    
+}
+.features .featcont{
+ 
+ display: block;
+}
+.testimonilas .testcont{
+display: block;
+ 
+}  
+.contact .contcont{
+  display: block;
+  
+}
   .skills .skillcont .span1, .skills .skillcont .span2, .skills .skillcont .span3, .skills .skillcont .span4, .skills .skillcont .span5 {  
     width: 80%;
     height: 111px;
